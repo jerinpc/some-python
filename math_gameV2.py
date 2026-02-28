@@ -1,7 +1,7 @@
 import random as rd
 import time
 
-settime=3
+settime=3 # You can set here your own time in seconds
 def question():
     value=rd.randint(0,9)
     return value
@@ -25,3 +25,4 @@ if answer==userValue:
 else:
 
     print(f'Your answer is wrong!, the answer is {answer}')
+
