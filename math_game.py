@@ -1,18 +1,10 @@
 import random as rd
-import time
 
 def numSel():
-    
     botNumbers=rd.randint(0,9)
     return botNumbers
 
-def timming():
-    timmer = time.time()
-    return timmer
 
-
-hast=timming()       
-print(hast)
     
 
 value1=numSel()
@@ -27,3 +19,4 @@ if userAns==answer:
     print("Yes the answer is ",answer)
 else:
     print('You are wrong!. The answer is ',answer)
+
