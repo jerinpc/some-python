@@ -1,7 +1,7 @@
 import random as rd
 import time
 
-settime=3 # You can set here your own time in seconds
+settime=3 # Set the time here
 while True:
     def question():
         value=rd.randint(0,9)
