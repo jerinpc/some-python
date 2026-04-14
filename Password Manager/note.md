@@ -95,7 +95,3 @@ q     → Quit program
 This project is licensed under the MIT License.
 
 ---
-
-## 😏 Final Note
-
-This project proves the concept of encryption, but it’s not a vault — it’s a training ground. Use it to learn, improve it, and level up.
