@@ -1,3 +1,5 @@
+# Before running this file you should run keyGen.py
+
 from cryptography.fernet import Fernet
 
 def key_file():
