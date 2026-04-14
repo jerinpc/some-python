@@ -2,5 +2,7 @@ This Python script uses the cryptography library’s Fernet encryption to store 
 for real-world or production use because the encryption key is stored insecurely on the same system, there is no 
 authentication or master password protection, sensitive data can be accessed or modified by anyone with file access, and overall 
 it lacks the necessary security practices required for a reliable and safe password management system.
+
 Before you run
-pip install cryptography # to install the package
+
+pip install cryptography #to install the package
