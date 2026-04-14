@@ -30,14 +30,6 @@ Store → Encode → Decrypt → Decode → Display
 
 ---
 
-## 📁 Project Structure
-
-```
-.
-├── data.key        # Encryption key
-├── password        # Stored credentials
-└── main.py         # Main program
-```
 
 ---
 
