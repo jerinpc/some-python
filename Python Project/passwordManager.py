@@ -24,7 +24,7 @@ def add():
         f.write(userName+'|'+fer.encrypt(pwd.encode()).decode()+'\n')
 
 while True:
-    mode = input("Do want to add a password or view (add/view)?, Q to quit : ").lower()
+    mode = input("Do you want to add a password or view existing ones? (add/view, q to quit): ").lower()
 
     if mode=='q':
         break
